@@ -2,10 +2,10 @@
 
 Hack implementation of [`reactphp-muxted`](https://github.com/WyriHaximus/reactphp-mutex) by [WyriHaximus](https://github.com/WyriHaximus).
 
-[![Build Status](https://travis-ci.com/azjezz/mutex.svg?branch=master)](https://travis-ci.com/azjezz/mutex)
-[![Latest Stable Version](https://poser.pugx.org/azjezz/mutex/v/stable.png)](https://packagist.org/packages/azjezz/mutex)
-[![Total Downloads](https://poser.pugx.org/azjezz/mutex/downloads.png)](https://packagist.org/packages/azjezz/mutex)
-[![License](https://poser.pugx.org/azjezz/mutex/license.png)](https://packagist.org/packages/azjezz/mutex)
+[![Build Status](https://travis-ci.org/azjezz/mutex.svg?branch=master)](https://travis-ci.com/azjezz/mutex)
+[![Latest Stable Version](https://poser.pugx.org/azjezz/mutex/v/stable.png?)](https://packagist.org/packages/azjezz/mutex)
+[![Total Downloads](https://poser.pugx.org/azjezz/mutex/downloads.png?)](https://packagist.org/packages/azjezz/mutex)
+[![License](https://poser.pugx.org/azjezz/mutex/license.png?)](https://packagist.org/packages/azjezz/mutex)
 
 ---
 
