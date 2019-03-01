@@ -1,0 +1,35 @@
+{
+    "name": "azjezz/mutex",
+    "description": "Mutex Locking for hack projects",
+    "type": "library",
+    "require": {
+        "hhvm": "^4.0",
+        "hhvm/hhvm-autoload": "^2.0",
+        "hhvm/hsl": "^4.0"
+    },
+    "require-dev": {
+        "hhvm/hhast": "^4.0",
+        "hhvm/hacktest": "^1.4",
+        "facebook/fbexpect": "^2.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "azjezz",
+            "email": "azjezz@protonmail.com"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "lint": "hhast-lint -v src/",
+        "type-check": "hh_client src/",
+        "test": "hacktest tests/",
+        "check": [
+            "@type-check",
+            "@lint",
+            "@test"
+        ]
+    }
+}

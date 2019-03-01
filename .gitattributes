@@ -1,0 +1,2 @@
+*.hack linguist-language=Hack
+tests/ export-ignore
