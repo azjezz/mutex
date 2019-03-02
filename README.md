@@ -30,10 +30,12 @@ This package provides two things:
 use namespace AzJezz\Mutex;
 use namespace HH\Asio;
 
-require 'vendor/hh_autoload.hh';
+require 'vendor/autoload.hack';
 
 <<__EntryPoint>>
 async function main(): Awaitable<void> {
+  Facebook\AutoloadMap\initialize();
+
   $mutex = new Mutex\Memory();
   
   $jobs = vec[
